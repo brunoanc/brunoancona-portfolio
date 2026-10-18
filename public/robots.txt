@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.brunoancona.me/sitemap.xml
+Sitemap: https://brunoancona.me/sitemap.xml
