@@ -3,5 +3,13 @@
     "tabWidth": 4,
     "singleQuote": true,
     "trailingComma": "none",
-    "printWidth": 100
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": ".github/workflows/*.{yml,yaml}",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }
