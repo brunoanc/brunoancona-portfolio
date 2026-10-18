@@ -433,6 +433,16 @@ pre {
     outline-offset: -4px;
 }
 
+.terminal-output-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-output-about > .terminal-entry {
+    flex-shrink: 0;
+    margin-block: auto;
+}
+
 .terminal-entry {
     padding: 28px 0 34px;
     animation: output-enter 220ms ease-out both;

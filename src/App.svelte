@@ -463,6 +463,7 @@
                 <!-- svelte-ignore a11y_no_noninteractive_tabindex (the scrollback must be keyboard-scrollable) -->
                 <div
                     class="terminal-output"
+                    class:terminal-output-about={entries.length === 1 && entries[0].result.view === 'about'}
                     id="terminal-output"
                     bind:this={output}
                     tabindex="0"
