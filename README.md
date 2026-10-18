@@ -20,9 +20,21 @@ npm run build
 npm run preview
 ```
 
-`npm run deploy` publishes the build to GitHub Pages. Run it only when the changes are ready to go live. `CNAME` and `sitemap.xml` are copied to the build by the existing postbuild script.
+Run `npm run format` to format the source code and `npm run lint` to check it.
 
-Run `npm run format` to format the active code, and `npm run lint` to check it.
+## Deployment
+
+The portfolio is hosted on Cloudflare Workers using Static Assets.
+
+Cloudflare Builds automatically builds and deploys changes pushed to the `master` branch.
+
+To deploy manually:
+
+```sh
+npm run deploy
+```
+
+The application is built with Vite into `dist/` and deployed using Wrangler. Static files in `public/`, including `robots.txt` and `sitemap.xml`, are copied automatically during the build.
 
 ## Editing
 
