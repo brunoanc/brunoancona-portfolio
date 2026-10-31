@@ -293,6 +293,7 @@ export const copy = {
         gpa: '9.8/10 GPA',
         skillLabels: ['Programming languages', 'Cloud & tools', 'Frameworks & databases'],
         awards: [
+            ['Professional Agentic Architect', 'Oct 2026', 'Google Cloud · Certification'],
             ['Associate Cloud Engineer', 'Apr 2026', 'Google Cloud · Certification'],
             [
                 'AWS Certified Cloud Practitioner (CLF-C02)',
@@ -377,6 +378,7 @@ export const copy = {
             'Frameworks y bases de datos'
         ],
         awards: [
+            ['Professional Agentic Architect', 'Oct 2026', 'Google Cloud · Certificación'],
             ['Associate Cloud Engineer', 'Abr 2026', 'Google Cloud · Certificación'],
             [
                 'AWS Certified Cloud Practitioner (CLF-C02)',
